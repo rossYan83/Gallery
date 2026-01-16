@@ -1,5 +1,5 @@
 // app.js - Main Application Controller
-import PixabayAPI from '../api.js';
+import PixabayAPI from './api.js';
 import StorageService from './storage.js';
 import GalleryUI from './gallery.js';
 
