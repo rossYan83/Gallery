@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Editor's Choice Images</h1>
+        </header>
+
+        <div class="api-key-section">
+            <input type="text" id="apiKeyInput" placeholder="Enter your Pixabay API key">
+            <button id="saveKeyBtn">Save API Key</button>
+        </div>
+
+        <div class="error" id="error"></div>
+        <div class="loading" id="loading">Loading images...</div>
+        
+        <div class="gallery" id="gallery"></div>
+
+        <div class="load-more-container">
+            <button class="load-more" id="loadMore">
+                View More
+            </button>
+        </div>
+    </div>
+
+    <!-- JavaScript Modules -->
+    <script type="module" src="app.js"></script>
+</body>
+</html>
