@@ -1,8 +1,4 @@
 // app.js - Main Application Controller
-import PixabayAPI from './api.js';
-import StorageService from './storage.js';
-import GalleryUI from './gallery.js';
-
 class PixabayGallery {
     constructor() {
         // Services
@@ -117,5 +113,3 @@ class PixabayGallery {
 document.addEventListener('DOMContentLoaded', () => {
     window.app = new PixabayGallery();
 });
-
-export default PixabayGallery;

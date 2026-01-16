@@ -1,3 +1,4 @@
+// api.js - Pixabay API Service
 class PixabayAPI {
     constructor(apiKey) {
         this.apiKey = apiKey;
@@ -34,5 +35,3 @@ class PixabayAPI {
         };
     }
 }
-
-export default PixabayAPI;

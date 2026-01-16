@@ -1,3 +1,4 @@
+// storage.js - Storage Service
 class StorageService {
     constructor() {
         this.storage = {};
@@ -23,5 +24,3 @@ class StorageService {
         this.storage = {};
     }
 }
-
-export default StorageService;

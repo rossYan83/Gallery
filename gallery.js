@@ -1,3 +1,4 @@
+// gallery.js - Gallery UI Component
 class GalleryUI {
     constructor(galleryElement) {
         this.gallery = galleryElement;
@@ -51,5 +52,3 @@ class GalleryUI {
         }
     }
 }
-
-export default GalleryUI;
